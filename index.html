@@ -16,8 +16,14 @@
         <div id="formulario">
             <h1>Login</h1>
             <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configurçãoes do seu ambiente.</p>
-            <form action="login.php" method="post">
-
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <label for="ilogin">Login</label>
+                    <input type="email" nome="login" id="ilogin" placehouder="Seu email">
+                </div>
+                <div class="campo">
+                    Senha
+                </div>
             </form>
         </div>
     </section>
