@@ -30,6 +30,18 @@ Extra-grande: 1200px ou mais (monitores de desktop)
         float: right;
         width: 70%;
     }
+
+    form > div.campo {
+        width: 50%;
+    }
+
+    form > input[type=submit] {
+        width: 50%;
+    }
+    
+    form > a.botao {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 991px){
@@ -37,8 +49,8 @@ Extra-grande: 1200px ou mais (monitores de desktop)
     body {
         background-image: linear-gradient(to top,#49a09d
         ,#5f2c82);
-    }
-    
+    } 
+
     section#login {
         width: 950px;
     }
@@ -51,6 +63,18 @@ Extra-grande: 1200px ou mais (monitores de desktop)
 
     section#login > div#formulario {
         float: right;
+        width: 50%;
+    }
+
+    form > div.campo {
+        width: 50%;
+    }
+
+    form > input[type=submit] {
+        width: 50%;
+    }
+    
+    form > a.botao {
         width: 50%;
     }
 }
