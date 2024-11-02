@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*Paleta de cores
-verde: #49a09d
+azul:  #277fb9
 lilás: #5f2c82
 
 */
@@ -14,7 +14,7 @@ lilás: #5f2c82
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #277fb9;
     height: 100vh;
     width: 100vw;
 }
